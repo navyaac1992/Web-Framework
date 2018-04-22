@@ -1,0 +1,132 @@
+/*body {
+    background: #656565;
+    margin:0;
+    padding: 0;
+    color: #000;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 20px auto;
+}*/
+
+.visible-area {
+    width: 1200px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.slidechild{
+    background-color: #646464;
+    width: 1200px;
+    height: 450px;
+    float: left;
+}
+.slide{
+    float: left;
+}
+.slider {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.next {
+    width: 100px;
+    margin-left: -30px;
+    float: right;
+    color: #fff;
+    height: 70px;
+    margin-top: 10px;
+    background:url("../image/next.png") no-repeat 37px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.previous {
+    width: 54px;
+    float: right;
+    color: #fff;
+    height: 70px;
+    margin-top: 10px;
+    background:url("../image/back.png") no-repeat 0px ;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.previous:hover{
+  background:url("../image/br_prev.png") no-repeat 0px ;
+}
+.next:hover{
+   width: 100px;
+    margin-left: -30px;
+    float: right;
+    color: #fff;
+    height: 70px;
+    margin-top: 10px;
+    background:url("../image/br_next.png") no-repeat 37px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.paging{
+    float: right;
+    padding: 0;
+    font-size: 25px;
+    margin-top: 32px;
+}
+.linking{
+    margin-top: 16px;
+    float:left;
+    word-spacing: 20px;
+    padding: 16px;
+}
+.linking a{
+    font-weight: bold;
+    padding: 4px 20px;
+    font-size: 20px;
+    width: 50px;
+    color: #000;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.hi-light{
+    background: #C2C2C2;
+}
+.heading{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.details{
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.cont{
+    margin-top: 16px;
+    float:left;
+    word-spacing: 5px;
+    padding: 16px;
+}
+.video{
+    margin-right: 100px;
+    float: right;
+}
+.cimage {
+    width: 500px;
+    height: 300px;
+}
+.image{
+    float: left;
+}
+.left_cont{
+    width: 50%;
+}
