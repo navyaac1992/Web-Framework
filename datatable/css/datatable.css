@@ -1,0 +1,17 @@
+tbody tr:nth-child(odd) {
+  background-color: #F0F8FF;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt';
+}
+
+table {
+  background-color: #ffffff;
+  width: 1200px;
+  margin: 20px auto;
+}

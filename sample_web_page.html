@@ -1,10 +1,13 @@
 <html>
 <head>
-  <title>sliding 2</title>
+  <title>Web Framework</title>
   <link rel="stylesheet" type="text/css" href="carousel/css/sliding2.css">
+  <link rel="stylesheet" type="text/css" href="datatable/css/datatable.css">
   <link rel="stylesheet" type="text/css" href="sample_web_page.css">
   <script src="carousel/js/jquery-1.10.2.min.js"></script>
   <script src="carousel/js/carousel.js"></script>
+  <script src="datatable/js/jquery-1.10.2.min.js"></script>
+  <script src="datatable/js/datatable.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -256,5 +259,36 @@
   </div>
 
 </div>
+<br/><br/>
+<table id="example" class="display">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Salary</th>
+                <th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><div class="row_data" edit_type="click">Angelica Ramos</div></td>
+                <td><div class="row_data" edit_type="click">Chief Executive Officer (CEO)</div></td>
+                <td><div class="row_data" edit_type="click">London</div></td>
+                <td><div class="row_data" edit_type="click">47</div></td>
+                <td><div class="row_data" edit_type="click">$1,200,000</div></td>
+            </tr>
+            <tr>
+                <td><div class="row_data" edit_type="click">Gavin Joyce</div></td>
+                <td><div class="row_data" edit_type="click">Developer</div></td>
+                <td><div class="row_data" edit_type="click">Edinburgh</div></td>
+                <td><div class="row_data" edit_type="click">42</div></td>
+                <td><div class="row_data" edit_type="click">$92,575</div></td>
+            </tr>
+        </tbody>
+    </table>
+
+
 </body>
 </html>
