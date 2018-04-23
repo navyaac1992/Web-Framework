@@ -4,9 +4,11 @@
   <link rel="stylesheet" type="text/css" href="carousel/css/sliding2.css">
   <link rel="stylesheet" type="text/css" href="datatable/css/datatable.css">
   <link rel="stylesheet" type="text/css" href="sample_web_page.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css" />
   <script src="assets/jquery-1.10.2.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="carousel/js/carousel.js"></script>
-  <!-- <script src="datatable/js/jquery-1.10.2.min.js"></script> -->
   <script src="datatable/js/datatable.js"></script>
 </head>
 <body>
@@ -259,8 +261,16 @@
   </div>
 
 </div>
-<br/><br/>
-<table id="example" class="display">
+<br/><br/><br/><br/>
+<!-- Data-Table application -->
+
+<select id="access">
+  <option value="Admin">Admin</option>
+  <option value="Professor">Professor</option>
+  <option value="Student">Student</option>
+</select>
+
+<table class="table table-bordered">
         <thead>
             <tr>
                 <th>Name</th>
@@ -268,27 +278,32 @@
                 <th>Office</th>
                 <th>Age</th>
                 <th>Salary</th>
-                <th>
             </tr>
         </thead>
         <tbody>
             <tr row_id="1">
-                <td><div class="row_data" edit_type="click">Angelica Ramos</div></td>
-                <td><div class="row_data" edit_type="click">Chief Executive Officer (CEO)</div></td>
-                <td><div class="row_data" edit_type="click">London</div></td>
-                <td><div class="row_data" edit_type="click">47</div></td>
-                <td><div class="row_data" edit_type="click">$1,200,000</div></td>
+                <td><div class="row_data" edit_type="click" colname="Name">Angelica Ramos</div></td>
+                <td><div class="row_data" edit_type="click" colname="Position">Chief Executive Officer (CEO)</div></td>
+                <td><div class="row_data" edit_type="click" colname="Office">London</div></td>
+                <td><div class="row_data" edit_type="click" colname="Age">47</div></td>
+                <td><div class="row_data" edit_type="click" colname="Salary">$1,200,000</div></td>
             </tr>
             <tr row_id="2">
-                <td><div class="row_data" edit_type="click">Gavin Joyce</div></td>
-                <td><div class="row_data" edit_type="click">Developer</div></td>
-                <td><div class="row_data" edit_type="click">Edinburgh</div></td>
-                <td><div class="row_data" edit_type="click">42</div></td>
-                <td><div class="row_data" edit_type="click">$92,575</div></td>
+                <td><div class="row_data" edit_type="click" colname="Name">Gavin Joyce</div></td>
+                <td><div class="row_data" edit_type="click" colname="Position">Developer</div></td>
+                <td><div class="row_data" edit_type="click" colname="Office">Edinburgh</div></td>
+                <td><div class="row_data" edit_type="click" colname="Age">42</div></td>
+                <td><div class="row_data" edit_type="click" colname="Salary">$92,575</div></td>
             </tr>
         </tbody>
-    </table>
+  </table>
 
-
+  <div class="panel panel-default">
+    <div class="panel-heading"><b>HTML Table Edits/Upates</b> </div>
+      <div class="panel-body">
+        <p>All the changes will be displayed below</p>
+        <div class="post_msg"> </div>
+      </div>
+  </div>
 </body>
 </html>
