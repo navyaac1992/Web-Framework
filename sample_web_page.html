@@ -266,34 +266,90 @@
 
 <select id="access">
   <option value="Admin">Admin</option>
-  <option value="Professor">Professor</option>
-  <option value="Student">Student</option>
+  <option value="Project Manager">Professor</option>
+  <option value="Employee">Student</option>
 </select>
 
 <table class="table table-bordered">
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Age</th>
-                <th>Salary</th>
+                <th class="sortable">Name</th>
+                <th class="sortable">Position</th>
+                <th class="sortable">Office</th>
+                <th class="sortable">Age</th>
+                <th class="sortable">Salary</th>
             </tr>
         </thead>
         <tbody>
             <tr row_id="1">
-                <td><div class="row_data" edit_type="click" colname="Name">Angelica Ramos</div></td>
-                <td><div class="row_data" edit_type="click" colname="Position">Chief Executive Officer (CEO)</div></td>
-                <td><div class="row_data" edit_type="click" colname="Office">London</div></td>
-                <td><div class="row_data" edit_type="click" colname="Age">47</div></td>
-                <td><div class="row_data" edit_type="click" colname="Salary">$1,200,000</div></td>
+                <td><div class="row_data" colname="Name">Angelica Ramos</div></td>
+                <td><div class="row_data" colname="Position">Chief Executive Officer (CEO)</div></td>
+                <td><div class="row_data" colname="Office">London</div></td>
+                <td><div class="row_data" colname="Age">47</div></td>
+                <td><div class="row_data" colname="Salary">$1,200,000</div></td>
             </tr>
             <tr row_id="2">
-                <td><div class="row_data" edit_type="click" colname="Name">Gavin Joyce</div></td>
-                <td><div class="row_data" edit_type="click" colname="Position">Developer</div></td>
-                <td><div class="row_data" edit_type="click" colname="Office">Edinburgh</div></td>
-                <td><div class="row_data" edit_type="click" colname="Age">42</div></td>
-                <td><div class="row_data" edit_type="click" colname="Salary">$92,575</div></td>
+                <td><div class="row_data" colname="Name">Gavin Joyce</div></td>
+                <td><div class="row_data" colname="Position">Developer</div></td>
+                <td><div class="row_data" colname="Office">Edinburgh</div></td>
+                <td><div class="row_data" colname="Age">42</div></td>
+                <td><div class="row_data" colname="Salary">$92,575</div></td>
+            </tr>
+            <tr row_id ="3">
+                <td><div class="row_data" colname="Name">Colleen Hurst</div></td>
+                <td><div class="row_data" colname="Position">Javascript Developer</div></td>
+                <td><div class="row_data" colname="Office">San Francisco</div></td>
+                <td><div class="row_data" colname="Age">39</div></td>
+                <td><div class="row_data" colname="Salary">$205,500</div></td>
+            </tr>
+            <tr row_id="4">
+                <td><div class="row_data" colname="Name">Sonya Frost</div></td>
+                <td><div class="row_data" colname="Position">Software Engineer</div></td>
+                <td><div class="row_data" colname="Office">Edinburgh</div></td>
+                <td><div class="row_data" colname="Age">23</div></td>
+                <td><div class="row_data" colname="Salary">$103,600</div></td>
+            </tr>
+            <tr row_id="5">
+                <td><div class="row_data" colname="Name">Jena Gaines</div></td>
+                <td><div class="row_data" colname="Position">Office Manager</div></td>
+                <td><div class="row_data" colname="Office">London</div></td>
+                <td><div class="row_data" colname="Age">30</div></td>
+                <td><div class="row_data" colname="Salary">$90,560</div></td>
+            </tr>
+            <tr row_id="6">
+                <td><div class="row_data" colname="Name">Quinn Flynn</div></td>
+                <td><div class="row_data" colname="Position">Support Lead</div></td>
+                <td><div class="row_data" colname="Office">Edinburgh</div></td>
+                <td><div class="row_data" colname="Age">22</div></td>
+                <td><div class="row_data" colname="Salary">$342,000</div></td>
+            </tr>
+            <tr row_id="7">
+                <td><div class="row_data" colname="Name">Charde Marshall</div></td>
+                <td><div class="row_data" colname="Position">Regional Director</div></td>
+                <td><div class="row_data" colname="Office">San Francisco</div></td>
+                <td><div class="row_data" colname="Age">36</div></td>
+                <td><div class="row_data" colname="Salary">$470,600</div></td>
+            </tr>
+            <tr row_id="8">
+                <td><div class="row_data" colname="Name">Haley Kennedy</div></td>
+                <td><div class="row_data" colname="Position">Senior Marketing Designer</div></td>
+                <td><div class="row_data" colname="Office">London</div></td>
+                <td><div class="row_data" colname="Age">43</div></td>
+                <td><div class="row_data" colname="Salary">$313,500</div></td>
+            </tr>
+            <tr row_id="9">
+                <td><div class="row_data" colname="Name">Tatyana Fitzpatrick</div></td>
+                <td><div class="row_data" colname="Position">Regional Director</div></td>
+                <td><div class="row_data" colname="Office">London</div></td>
+                <td><div class="row_data" colname="Age">19</div></td>
+                <td><div class="row_data" colname="Salary">$385,750</div></td>
+            </tr>
+            <tr row_id="10">
+                <td><div class="row_data" colname="Name">Michael Silva</div></td>
+                <td><div class="row_data" colname="Position">Marketing Designer</div></td>
+                <td><div class="row_data" colname="Office">London</div></td>
+                <td><div class="row_data" colname="Age">66</div></td>
+                <td><div class="row_data" colname="Salary">$198,500</div></td>
             </tr>
         </tbody>
   </table>

@@ -7,6 +7,7 @@ tbody tr:nth-child(even) {
 }
 
 thead th, tfoot th {
+  cursor: pointer;
   font-family: 'Rock Salt';
 }
 
