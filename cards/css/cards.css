@@ -10,12 +10,12 @@ body {
 }
 .card a {
   color: #333;
-  /*text-decoration: none;*/
+  text-decoration: none;
 }
 .card:hover .card-image img {
   width: 110%;
   filter: grayscale(0);
-  text-decoration: none;
+ /* text-decoration: none;*/
 }
 .card-image {
   height: 250px;

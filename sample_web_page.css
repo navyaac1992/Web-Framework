@@ -11,8 +11,6 @@ body {
     margin-bottom: 20px;
    
 }
-<<<<<<< Updated upstream
-=======
 
 .sorting-heading {
 	margin-left: 60px;
@@ -41,4 +39,3 @@ ol.vertical li ,ol.vertical-drag-one li, ol.vertical-drag-two li{
 .completed-list,.todo-list {
 	margin-left: 45px;
 }
->>>>>>> Stashed changes
