@@ -11,3 +11,34 @@ body {
     margin-bottom: 20px;
    
 }
+<<<<<<< Updated upstream
+=======
+
+.sorting-heading {
+	margin-left: 60px;
+}
+
+ol.easy-sorting-list,ol.simple_with_animation {
+	margin: 0px 20px 20px 20px;
+}
+
+ol.vertical li ,ol.vertical-drag-one li, ol.vertical-drag-two li{
+	padding: 15px;
+}
+
+.list2 {
+	width: 50%;
+	float:left;
+	margin-left: 20px;
+}
+
+.list3 {
+	width:40%;
+	float: right;
+	margin-right: 20px;
+}
+
+.completed-list,.todo-list {
+	margin-left: 45px;
+}
+>>>>>>> Stashed changes
